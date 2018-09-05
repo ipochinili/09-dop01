@@ -43,7 +43,7 @@ body {
 }
 .menu ul {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	list-style: none;
 }
 .menu-link {
@@ -51,7 +51,7 @@ body {
 	text-decoration: none;
 }
 .get-started-btn {
-	margin-left: 20px;
+	margin-left: 80px;
 	text-transform: uppercase;
 	border: 1px solid #fff;
 	border-radius: 50px;
