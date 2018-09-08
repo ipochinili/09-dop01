@@ -127,11 +127,12 @@ html {
 .table {
 	background-color: #f9fafc;
 	height: 100vh;
-	min-height: 600px;
+	min-height: 700px;
 	padding: 10rem;
 }
 .table-header {
 	text-align: center;
+	margin-bottom: 7rem;
 }
 .table-header span {
 	color: #9fa4af;
@@ -174,19 +175,20 @@ html {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
+	margin-bottom: 10rem;
 }
 .price-tag {
 	width: 39rem;
-	min-height: 500px;
+	/*min-height: 500px;*/
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	align-items: center;
-	padding: 2rem;
 	border: 1px solid rgb(215, 219, 232);
 	border-radius: 30px;
 	background: #fff;
+	padding: 6rem;
 	transition: 0.2s;
 }
 .price-tag:hover {
@@ -199,4 +201,61 @@ html {
 	text-transform: uppercase;
 	color: #9fa4af;
 	font-weight: 500;
+	margin: 3rem auto 1rem;
 }
+.price-tag h4 {
+	font-size: 6rem;
+	font-weight: 500;
+	color: #4f4f6f;
+	margin: 0 auto 2rem;
+}
+.price-tag h4 sup {
+	font-size: 1.6rem;
+	vertical-align: super;
+	margin-right: 0.3rem;
+}
+.price-tag h4 sub {
+	font-size: 1.8rem;
+}
+.price-tag p {
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: #9fa4af;
+	margin-bottom: 4rem;
+}
+.price-btn {
+	font-size: 1.2rem;
+	font-weight: 500;
+	text-transform: uppercase;
+	background: #fff;
+	color: #c2c9db;
+	padding: 2rem 5rem;
+	border: 1px solid rgb(215, 219, 232);
+	border-radius: 3rem;
+	box-shadow: 0px 0px 18.69px 2.31px rgba(204, 204, 223, 0.5);
+	transition: 0.5s;
+}
+.price-btn:hover {
+	background-color: #6e45e2;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
