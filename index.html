@@ -9,7 +9,16 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 	<script src="https://use.fontawesome.com/3920f3678d.js"></script>
-	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$("a[href^='#']").click(function(){
+				var _href = $(this).attr("href");
+				$("html, body").animate({scrollTop: $(_href).offset().top+"px"},1500);
+				return false;
+			});
+		});
+	</script>
 </head>
 <body>
 	<div class="main">
