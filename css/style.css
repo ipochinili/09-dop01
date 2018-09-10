@@ -176,7 +176,9 @@ html {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
-	margin-bottom: 10rem;
+	width: 90%;
+   	margin: 0 auto 10rem;
+
 }
 .price-tag {
 	width: 37rem;
